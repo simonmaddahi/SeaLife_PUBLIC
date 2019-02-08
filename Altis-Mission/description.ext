@@ -1,0 +1,18 @@
+#include "config\Config_SpyGlass.hpp"
+#include "config\CfgRemoteExec.hpp"
+#include "dialog\MasterHandler.hpp"
+#include "config\Config_Master.hpp"
+//disableChannels[]={{0, false, false},{1, false, false},{2, false, false},{3, true, true},{4, true, true},{5, true, true},{6, false, false}};
+#include "config\Config_Includes.hpp"
+author = "SeaLife-Gaming - Development";
+onLoadName = "Altis Life";
+onLoadMission = "SeaLife-Gaming Altis Life";
+class Header
+{
+	gameType = RPG; // MP mission type
+	minPlayers = 1;
+	maxPlayers = 146;
+};
+
+#include "config\Config_RscTitles.hpp"
+enableDebugConsole = 0;
