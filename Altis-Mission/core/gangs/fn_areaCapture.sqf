@@ -50,7 +50,7 @@ if (!isNull _group) then {
 
     //closes the capture
     if (_areaContested && _xname isEqualTo "Rebels") then {
-        ["Die Gruppierung ist in der N�he, du kannst das Gebiet nicht neutralisieren!", false, "fast"] spawn ESG_fnc_notify;
+        ["Die Gruppierung ist in der Nähe, du kannst das Gebiet nicht neutralisieren!", false, "fast"] spawn ESG_fnc_notify;
     };
 
 } forEach _nearUnits;
@@ -138,10 +138,10 @@ _area = getpos player nearestObject "Flag_Red_F"; //finds the flag
 _group = _area getVariable ["gangOwner",grpNull]; //gets the ownerr of the flag
 _xname = ""; //setup for popo name
 _nearUnits = _area nearEntities ["Man",50]; //searches area for players
-if (!(license_civ_yakuza) || (license_civ_mafia) || (license_civ_rocker)) exitWith {["Du ben�tigst die Yakuza,Mafia oder die Rocker Lizenz, um ein Zentrum einzunehmen!", false, "fast"] spawn ESG_fnc_notify;}; //needed License
+//if (!(license_civ_yakuza) || (license_civ_mafia) || (license_civ_rocker)) exitWith {["Du benötigst die Yakuza,Mafia oder die Rocker Lizenz, um ein Zentrum einzunehmen!", false, "fast"] spawn ESG_fnc_notify;}; //needed License
 if (isNil {group player getVariable "gang_name"}) exitWith { ["Du musst in einer Gruppierung sein, um dieses Zentrum einzunehmen!", false, "fast"] spawn ESG_fnc_notify; }; //not in a gang
 if (_group isEqualTo group player) exitWith { ["Deine Gruppierung besitzt bereits die Kontrolle ueber das Zentrum!", false, "fast"] spawn ESG_fnc_notify; }; //already own it
-if ((_area getVariable ["inCapture",FALSE])) exitWith {["Eine andere Person übernimmt bereits das Zentrum!", false, "fast"] spawn ESG_fnc_notify; }; //stops 2 people capturing at the same time
+if ((_area getVariable ["inCapture",FALSE])) exitWith {["Eine andere Person Ã¼bernimmt bereits das Zentrum!", false, "fast"] spawn ESG_fnc_notify; }; //stops 2 people capturing at the same time
 
 [[0,1],"STR_GNOTF_CaptureAreaAttempt",true,[name player,(group player) getVariable "gang_name"]] remoteExecCall ["life_fnc_broadcast",RCLIENT]; //tells the server someone is trying to capture the outpost
 
