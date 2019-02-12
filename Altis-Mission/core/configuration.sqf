@@ -13,6 +13,9 @@
 */
 life_query_time = time;
 life_newbe = false;
+life_bambyTakeHandler = -1;
+life_bambyDamageHandler = -1;
+life_bamby_broke = false;
 life_action_delay = time;
 life_trunk_vehicle = objNull;
 life_session_completed = false;
