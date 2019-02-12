@@ -1,6 +1,6 @@
 /* 
    Author: Kuchenplatte
-   Edit by: Natic
+   Edit by: Natic [TZ]
 */
 #include "..\..\script_macros.hpp"
 private _loginCount0 = 5; 
