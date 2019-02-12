@@ -274,6 +274,8 @@ class CfgFunctions {
 			class unimpound {};
 			class vehicleGarage {};
 			class wireTransfer {};
+			class bambyTake {};
+			class bambyInit {};
 		};
 		
 		class ARC {
