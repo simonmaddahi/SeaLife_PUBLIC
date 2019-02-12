@@ -274,8 +274,6 @@ class CfgFunctions {
 			class unimpound {};
 			class vehicleGarage {};
 			class wireTransfer {};
-			class bambyTake {};
-			class bambyInit {};
 		};
 		
 		class ARC {
@@ -338,6 +336,8 @@ class CfgFunctions {
 			class ladeSpieler {};
 			class mapfilter {};
 			class injuredmenu {};
+			class bambyTake {};
+			class bambyInit {};
 		};
 
 		class Gangs {
