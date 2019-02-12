@@ -254,6 +254,7 @@ switch (playerSide) do {
 };
  
 [1, "Fertig!", 15, 15] call life_fnc_ladeSpieler;
+call life_fnc_bambyInit;
 
 diag_log "----------------------------------------------------------------------------------------------------";
 diag_log format ["               End of Altis Life Client Init :: Total Execution Time %1 seconds ",(diag_tickTime) - _timeStamp];
