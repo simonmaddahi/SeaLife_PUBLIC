@@ -2,7 +2,6 @@
 #include "config\CfgRemoteExec.hpp"
 #include "dialog\MasterHandler.hpp"
 #include "config\Config_Master.hpp"
-#include "maverick\tuning\dialogs\titles.hpp"
 //disableChannels[]={{0, false, false},{1, false, false},{2, false, false},{3, true, true},{4, true, true},{5, true, true},{6, false, false}};
 #include "config\Config_Includes.hpp"
 author = "SeaLife-Gaming - Development";
@@ -16,4 +15,5 @@ class Header
 };
 
 #include "config\Config_RscTitles.hpp"
+#include "maverick\tuning\dialogs\titles.hpp"
 enableDebugConsole = 0;
