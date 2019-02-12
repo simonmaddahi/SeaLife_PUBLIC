@@ -1807,6 +1807,20 @@ class LifeCfgVehicles {
         price_med = 0;
         textures[] = {
             {
+                "Gold (Premium Lackierung)",
+                "civ",
+                {
+                    "texture\donator\premium\Premium.paa"
+                }
+            },
+			{
+                "Unicorn (Premium Lackierung)",
+                "civ",
+                {
+                    "texture\donator\premium\limo_unicorn.jpg"
+                }
+            },
+			{
                 "Rot",
                 "civ",
                 {
@@ -2086,6 +2100,62 @@ class LifeCfgVehicles {
         price_med = 0;
         textures[] = {
             {
+                "Venox",
+                "civ",
+                {
+                    "texture\donator\auto\Venox\venox_suv.jpg"
+                }
+            },
+			{
+                "Taxi",
+                "civ",
+                {
+                    "texture\civ_fahrzeuge\suv\taxi_suv.jpg"
+                }
+            },
+			{
+                "Anwalt",
+                "civ",
+                {
+                    "texture\civ_fahrzeuge\suv\suv_anwalt.jpg"
+                }
+            },
+			{
+                "Packman",
+                "civ",
+                {
+                    "texture\civ_fahrzeuge\suv\packman.jpg"
+                }
+            },
+			{
+                "Winter",
+                "civ",
+                {
+                    "texture\civ_fahrzeuge\suv\winter.jpg"
+                }
+            },
+			{
+                "Wildlife",
+                "civ",
+                {
+                    "texture\civ_fahrzeuge\suv\wildlife.jpg"
+                }
+            },
+			{
+                "Racingcar",
+                "civ",
+                {
+                    "texture\civ_fahrzeuge\suv\racingcar.jpg"
+                }
+            },
+			{
+                "Out",
+                "civ",
+                {
+                    "texture\civ_fahrzeuge\suv\out.jpg"
+                }
+            },
+			{
                 "Dunkelrot",
                 "civ",
                 {
@@ -2140,7 +2210,7 @@ class LifeCfgVehicles {
         price_cop = 500000;
         price_med = 500000;
         textures[] = {
-            {
+			{
                 "Weiss",
                 "civ",
                 {
@@ -2283,6 +2353,27 @@ class LifeCfgVehicles {
         price_med = 300000;
         textures[] = {
             {
+                "Venox",
+                "civ",
+                {
+                    "texture\donator\humingbird\Venox\venox_humingbird.jpg"
+                }
+            },
+			{
+                "John Player Special",
+                "civ",
+                {
+                    "texture\civ_fahrzeuge\zig_hummi\hummingbird_jps.jpg"
+                }
+            },
+			{
+                "Marlboro",
+                "civ",
+                {
+                    "texture\civ_fahrzeuge\zig_hummi\hummingbird_marlboro.jpg"
+                }
+            },
+			{
                 "Blau",
                 "civ",
                 {
@@ -2364,20 +2455,6 @@ class LifeCfgVehicles {
                 "reb",
                 {
                     "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
-                }
-            },
-			{
-                "John Player Special",
-                "civ",
-                {
-                    "texture\zig_hummi\hummingbird_jps.jpg"
-                }
-            },
-			{
-                "Marlboro",
-                "civ",
-                {
-                    "texture\zig_hummi\hummingbird_marlboro.jpg"
                 }
             },
             {
@@ -2984,6 +3061,13 @@ class LifeCfgVehicles {
         price_med = 1800000;
         textures[] = {
             {
+                "Taxi",
+                "civ",
+                {
+                    "texture\civ_fahrzeuge\transporter\taxi_transporter.jpg"
+                }
+            },
+			{
                 "Braun",
                 "civ",
                 {

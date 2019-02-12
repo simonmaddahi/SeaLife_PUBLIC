@@ -111,16 +111,7 @@ switch (_code) do {
 		systemchat "Diese Ansicht ist deaktiviert!";
 	};
 
-    if (_alt && _code isEqualTo 62 && isNil "alt_f4") then {
-	["Diese Funktion ist deaktiviert!", false "fast"] spawn ESG_fnc_notify;
- cutText["Funktion verboten!","BLACK FADED"];
- [1,format["ACHTUNG: %1 hat das Combatlogging versucht!", name player]] remoteExec ["life_fnc_broadcast",west,civilian,independent,east]; 
- [] spawn SOCK_fnc_updateRequest;
- alt_f4 = true;[] spawn {uiSleep 5; alt_f4 = nil;};
- _handled = true;
-};
-	
-	//Holster / recall weapon. (Shift + H)
+    //Holster / recall weapon. (Shift + H)
     case 35: {
         if (_shift && !_ctrlKey && !(currentWeapon player isEqualTo "")) then {
 			if(player getVariable ["esg_bewusstlos",false])exitWith{hint "Du bist Verwundet!";};

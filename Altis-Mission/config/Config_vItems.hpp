@@ -27,7 +27,7 @@ class VirtualShops {
     class reb_markt {
         name = "STR_Shops_Rebel";
         side = "civ";
-        license = "rebel";
+        license = "yakuza";
         conditions = "";
         items[] = { "waterBottle", "tbacon", "redgull", "fuelFull", "bandage", "boltcutter", "blastingcharge", "kabelbinder", "lockpick", "augenbinde" };
     };

@@ -20,7 +20,7 @@ if ((FETCH_CONST(life_copLevel)) < 1 && (FETCH_CONST(life_adminlevel) isEqualTo 
     sleep 35;
 };
 
-if(!(str(player) in ["cop_1"]) && ((FETCH_CONST(life_copLevel)) < 10) then {
+if(!(str(player) in ["cop_1"]) && ((FETCH_CONST(life_copLevel)) < 10) exitWith {
  ["noslotpermission",false,true] call BIS_fnc_endMission;
  sleep 35;
  };

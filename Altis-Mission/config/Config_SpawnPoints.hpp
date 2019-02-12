@@ -37,8 +37,7 @@ class CfgSpawnPoints {
             };
 			
 			class Zentum {
-                displayName = "(Kommt vor der Beta raus!) Illigalles Zentum!";
-                displayName = "(Kommt vor der Beta raus!) Illigalles Zentum!";
+                displayName = "(Kommt vor der Beta!) raus Illigalles Zentum!";
                 spawnMarker = "illigalles";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
@@ -67,9 +66,23 @@ class CfgSpawnPoints {
 			
 			class yakuza {
                 displayName = "Yakuza HQ";
-                spawnMarker = "reb_spawn_1";
+                spawnMarker = "Yakuza_HQ";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "license_civ_yakuza";
+            };
+			
+			class rocker {
+                displayName = "Rocker HQ";
+                spawnMarker = "rocker_HQ";
+                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+                conditions = "license_civ_rocker";
+            };
+			
+			class mafia {
+                displayName = "Mafia HQ";
+                spawnMarker = "mafia_HQ";
+                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+                conditions = "license_civ_mafia";
             };
 			
 			class team {

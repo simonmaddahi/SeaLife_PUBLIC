@@ -31,7 +31,7 @@ class WeaponShops {
               { "NVGoggles", "", 0, 0, "" },
               { "Binocular", "", 0, 0, "" },
               { "ToolKit", "", 0, 0, "" },
-	      { "SmokeShellPurple", "",0, 0, "" }
+	          { "SmokeShellPurple", "",0, 0, "" }
         };
     };
 

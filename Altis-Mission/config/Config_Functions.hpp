@@ -334,10 +334,8 @@ class CfgFunctions {
 			class globalSound {};
 			class halojump {};
 			class ladeSpieler {};
-			class bambyInit{};
 			class mapfilter {};
 			class injuredmenu {};
-			class bambyTake{};
 		};
 
 		class Gangs {

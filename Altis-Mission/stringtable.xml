@@ -1876,7 +1876,7 @@
             <Original>Taktischer Speck</Original>
         </Key>
         <Key ID="STR_Item_RedGull">
-            <Original>RedGull</Original>
+            <Original>Wodka Energy</Original>
         </Key>
 		<Key ID="STR_Item_augenbinde">
             <Original>Augenbinde</Original>
@@ -1927,6 +1927,27 @@
         </Key>
 		<Key ID="STR_License_yakuza">
             <Original>Yakuza-Mitgliedschaft</Original>
+        </Key>
+		<Key ID="STR_License_venox">
+            <Original>Venox-Mitgliedschaft</Original>
+        </Key>
+		<Key ID="STR_License_ktm">
+            <Original>KTM-Mitgliedschaft</Original>
+        </Key>
+		<Key ID="STR_License_ktm2">
+            <Original>KTM-Mitgliedschaft</Original>
+        </Key>
+		<Key ID="STR_License_premium1">
+            <Original>Premium-LVL 1</Original>
+        </Key>
+		<Key ID="STR_License_premium2">
+            <Original>Premium-LVL 2</Original>
+        </Key>
+		<Key ID="STR_License_premium3">
+            <Original>Premium-LVL 3</Original>
+        </Key>
+		<Key ID="STR_License_premiumvip">
+            <Original>Premium-VIP</Original>
         </Key>
 		<Key ID="STR_License_mafia">
             <Original>Mafia-Mitgliedschaft</Original>

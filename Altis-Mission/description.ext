@@ -15,5 +15,4 @@ class Header
 };
 
 #include "config\Config_RscTitles.hpp"
-#include "maverick\tuning\dialogs\titles.hpp"
 enableDebugConsole = 0;

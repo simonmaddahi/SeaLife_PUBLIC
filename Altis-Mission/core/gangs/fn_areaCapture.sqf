@@ -2,7 +2,6 @@
 /*
     File: fn_areaCapture.sqf
     Author: Fuel RebornRoleplay.com
-	Modified by: Natic
 
     Description:
     checks the area for gangs or police before allowing you to capture an area
@@ -14,7 +13,7 @@ _group = _area getVariable ["gangOwner",grpNull]; //gets the owner of the flag
 _xname = ""; //setup for popo name
 _nearUnits = _area nearEntities ["Man",500]; //searches area for players
  _areaContested = false; //sets the area to not contested
-if ((player distance _area) > 10) exitWith { ["Du bist von der Flagge zuweit entfernt!", false, "fast"] spawn ESG_fnc_notify; }; //too far away
+if ((player distance _area) > 10) exitWith { hint "You must be closer to the flag to capture this area!"; }; //too far away
 
 /*
 #########################################
@@ -50,7 +49,7 @@ if (!isNull _group) then {
 
     //closes the capture
     if (_areaContested && _xname isEqualTo "Rebels") then {
-        ["Die Gruppierung ist in der Nähe, du kannst das Gebiet nicht neutralisieren!", false, "fast"] spawn ESG_fnc_notify;
+        hint "Rebels are nearby!\nGet rid of them first!";
     };
 
 } forEach _nearUnits;
@@ -81,18 +80,18 @@ if (!(_areaContested)) then {
 
         //interuption checks
         if (_cP >= 1 || !alive player) exitWith {_area setVariable ["inCapture",false,true];};
-        if (player distance _area > 50) exitWith {_area setVariable ["inCapture",false,true];}; //how far they can go from the hideout while capturing
+        if (player distance _area > 100) exitWith {_area setVariable ["inCapture",false,true];}; //how far they can go from the hideout while capturing
         if (_areaContested) exitWith {hint "Area Contested";}; //Future testing
         if (life_istazed) exitWith {_area setVariable ["inCapture",false,true];}; //Tazed
         if (life_isknocked) exitWith {_area setVariable ["inCapture",false,true];}; //Knocked
         if (life_interrupted) exitWith {_area setVariable ["inCapture",false,true];}; //interupted
     };
-          if (player distance _area > 50) exitWith {_area setVariable ["inCapture",false,true];}; //how far they can go from the hideout while capturing
+          if (player distance _area > 100) exitWith {_area setVariable ["inCapture",false,true];}; //how far they can go from the hideout while capturing
 };
 
 //Kill the UI display and check for various states
 5 cutText ["","PLAIN"];
-        if (player distance _area > 50) exitWith {_area setVariable ["inCapture",false,true];}; //how far they can go from the hideout while capturing
+        if (player distance _area > 100) exitWith {_area setVariable ["inCapture",false,true];}; //how far they can go from the hideout while capturing
 if (!alive player || life_istazed || life_isknocked) exitWith {life_action_inUse = false;_area setVariable ["inCapture",false,true];}; //knocked out or tazed revert state
 if (player getVariable["restrained",false]) exitWith {life_action_inUse = false;_area setVariable ["inCapture",false,true];}; //restrained revert state
 if (life_interrupted) exitWith {life_interrupted = false; titleText[localize "STR_GNOTF_CaptureCancel","PLAIN"]; life_action_inUse = false;_area setVariable ["inCapture",false,true];}; //interupted revert state
@@ -103,7 +102,7 @@ titleText[localize "STR_GNOTF_CapturedArea","PLAIN"];
 _gangNum = _area getVariable ["gangNum", ""];
 
 _gName = group player getVariable "gang_name";
-_pText = format["Illegales Zentrum"];
+_pText = format["Neutralized Area"];
 
 if (_gangNum == "Gang_Area_1") then {
     "gang_cap_1" setMarkerText _pText;
@@ -137,11 +136,10 @@ _area setVariable ["gangOwner",group player,true];
 _area = getpos player nearestObject "Flag_Red_F"; //finds the flag
 _group = _area getVariable ["gangOwner",grpNull]; //gets the ownerr of the flag
 _xname = ""; //setup for popo name
-_nearUnits = _area nearEntities ["Man",50]; //searches area for players
-//if (!(license_civ_yakuza) || (license_civ_mafia) || (license_civ_rocker)) exitWith {["Du benötigst die Yakuza,Mafia oder die Rocker Lizenz, um ein Zentrum einzunehmen!", false, "fast"] spawn ESG_fnc_notify;}; //needed License
-if (isNil {group player getVariable "gang_name"}) exitWith { ["Du musst in einer Gruppierung sein, um dieses Zentrum einzunehmen!", false, "fast"] spawn ESG_fnc_notify; }; //not in a gang
-if (_group isEqualTo group player) exitWith { ["Deine Gruppierung besitzt bereits die Kontrolle ueber das Zentrum!", false, "fast"] spawn ESG_fnc_notify; }; //already own it
-if ((_area getVariable ["inCapture",FALSE])) exitWith {["Eine andere Person Ã¼bernimmt bereits das Zentrum!", false, "fast"] spawn ESG_fnc_notify; }; //stops 2 people capturing at the same time
+_nearUnits = _area nearEntities ["Man",500]; //searches area for players
+if (isNil {group player getVariable "gang_name"}) exitWith { hint "You must be in a gang to capture a gang area!"; }; //not in a gang
+if (_group isEqualTo group player) exitWith { hint "Your gang already has control over this area!"; }; //already own it
+if ((_area getVariable ["inCapture",FALSE])) exitWith {hint "Only one person shall capture at once!"; }; //stops 2 people capturing at the same time
 
 [[0,1],"STR_GNOTF_CaptureAreaAttempt",true,[name player,(group player) getVariable "gang_name"]] remoteExecCall ["life_fnc_broadcast",RCLIENT]; //tells the server someone is trying to capture the outpost
 
@@ -218,18 +216,18 @@ if (!(_areaContested)) then {
 
         //interuption checks
         if (_cP >= 1 || !alive player) exitWith {_area setVariable ["inCapture",false,true];};
-        if (player distance _area > 50) exitWith {_area setVariable ["inCapture",false,true];}; //how far they can go from the hideout while capturing
+        if (player distance _area > 100) exitWith {_area setVariable ["inCapture",false,true];}; //how far they can go from the hideout while capturing
         if (_areaContested) exitWith {hint "Area Contested";};
         if (life_istazed) exitWith {_area setVariable ["inCapture",false,true];}; //Tazed
         if (life_isknocked) exitWith {_area setVariable ["inCapture",false,true];}; //Knocked
         if (life_interrupted) exitWith {_area setVariable ["inCapture",false,true];}; //interupted
     };
-    if (player distance _area > 50) exitWith {_area setVariable ["inCapture",false,true];}; //how far they can go from the hideout while capturing
+    if (player distance _area > 100) exitWith {_area setVariable ["inCapture",false,true];}; //how far they can go from the hideout while capturing
 };
 
 //Kill the UI display and check for various states
 5 cutText ["","PLAIN"];
-if (player distance _area > 50) exitWith {_area setVariable ["inCapture",false,true];}; //how far they can go from the hideout while capturing
+if (player distance _area > 100) exitWith {_area setVariable ["inCapture",false,true];}; //how far they can go from the hideout while capturing
 if (!alive player || life_istazed || life_isknocked) exitWith {life_action_inUse = false;_area setVariable ["inCapture",false,true];}; //knocked out or tazed revert state
 if (player getVariable["restrained",false]) exitWith {life_action_inUse = false;_area setVariable ["inCapture",false,true];}; //restrained revert state
 if (life_interrupted) exitWith {life_interrupted = false; titleText[localize "STR_GNOTF_CaptureCancel","PLAIN"]; life_action_inUse = false;_area setVariable ["inCapture",false,true];}; //interupted revert state
@@ -241,7 +239,7 @@ titleText[localize "STR_GNOTF_CapturedArea","PLAIN"];
 _gangNum = _area getVariable ["gangNum", ""];
 
 _gName = group player getVariable "gang_name";
-_text = format["Eingenommen von %1",_gName];
+_Text = format["Area Controlled By %1",_gName];
 
 if (_gangNum == "Gang_Area_1") then {
     "gang_cap_1" setMarkerText _text;
@@ -255,7 +253,7 @@ if (_gangNum == "Gang_Area_3") then {
     "gang_cap_3" setMarkerText _text;
 };
 
-//Global Message
+//Tell the world
 [[0,1],"STR_GNOTF_CaptureAreaSuccess",true,[name player,(group player) getVariable "gang_name"]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
 
 _area setVariable ["inCapture",false,true];

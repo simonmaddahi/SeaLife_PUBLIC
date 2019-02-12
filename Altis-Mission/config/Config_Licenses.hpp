@@ -68,7 +68,7 @@ class Licenses {
         variable = "rocker";
         displayName = "Rocker-Mitgliedschaft";
         price = 750000;
-        illegal = false;
+        illegal = true;
         side = "civ";
     };
 	
@@ -76,7 +76,7 @@ class Licenses {
         variable = "mafia";
         displayName = "Mafia-Mitgliedschaft";
         price = 750000;
-        illegal = false;
+        illegal = true;
         side = "civ";
     };
 	
@@ -84,7 +84,7 @@ class Licenses {
         variable = "yakuza";
         displayName = "Yakuza-Mitgliedschaft";
         price = 750000;
-        illegal = false;
+        illegal = true;
         side = "civ";
     };
 	
@@ -120,11 +120,51 @@ class Licenses {
         side = "civ";
     };
 	
-    class rebel {
-        variable = "rebel";
-        displayName = "Rebellenausbildung";
+    class venox {
+        variable = "venox";
+        displayName = "Venox-Mitgliedschaft";
         price = 7500000;
-        illegal = true;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class ktm2 {
+        variable = "ktm2";
+        displayName = "KTM-Mitgliedschaft";
+        price = 8000;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class premium1 {
+        variable = "premium1";
+        displayName = "Premium-LVL 1";
+        price = 7500000;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class premium2 {
+        variable = "premium2";
+        displayName = "Premium-LVL 2";
+        price = 7500000;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class premium3 {
+        variable = "premium3";
+        displayName = "Premium-LVL 3";
+        price = 7500000;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class premiumvip {
+        variable = "premiumvip";
+        displayName = "Premium-VIP";
+        price = 7500000;
+        illegal = false;
         side = "civ";
     };
 
@@ -140,6 +180,14 @@ class Licenses {
     class cg {
         variable = "cg";
         displayName = "Polizei Bootsschein";
+        price = 8000;
+        illegal = false;
+        side = "cop";
+    };
+	
+	class ktm {
+        variable = "ktm";
+        displayName = "KTM-Mitgliedschaft";
         price = 8000;
         illegal = false;
         side = "cop";

@@ -10,10 +10,38 @@ private ["_skinName"];
 
 switch (playerSide) do {
     case civilian: {
-		if(uniform player isEqualTo "U_C_Poloshirt_blue")then {
+			if(uniform player isEqualTo "U_C_Poloshirt_blue")then {
 			player setObjectTextureGlobal [0, "texture\uni\sl_spawn.jpg"];
+			};
+			
+			if(license_civ_venox)then{
+            _pfad = "texture\donator\kleidung\Venox\";
+            if (uniform player isEqualTo "U_I_CombatUniform") then {
+                player setObjectTextureGlobal [0, _pfad + "venox.jpg"];
+			};
+		};
+			
+		if(license_civ_venox)then{
+            _pfad = "texture\donator\kleidung\Venox\";
+            if (backpack player isEqualTo "B_ViperHarness_blk_F") then {
+               (unitBackpack player) setObjectTextureGlobal [0, _pfad + "venox_ruck.jpg"];
+			};
+		};	
+			
+		if(license_civ_ktm2)then{
+            _pfad = "texture\donator\kleidung\KTM\";
+            if (uniform player isEqualTo "U_I_CombatUniform_shortsleeve") then {
+                player setObjectTextureGlobal [0, _pfad + "ktm_civ.jpg"];
+			};
+		};	
+		if(license_civ_ktm2)then{
+            _pfad = "texture\donator\kleidung\KTM\";
+            if (backpack player isEqualTo "B_ViperHarness_khk_F") then {
+                (unitBackpack player) setObjectTextureGlobal [0, _pfad + "ruck_ktm_civ.jpg"];
+			};
 		};
 	};
+	
     case west: {
         if (uniform player isEqualTo "U_Rangemaster") then {
             player setObjectTextureGlobal [0, "texture\uni\Pol_Kurzarm.jpg"];
@@ -33,6 +61,13 @@ switch (playerSide) do {
 		
 		if((backpack player) != "")then {
 			(unitBackpack player) setObjectTextureGlobal [0, ""];
+		};
+		
+		if(license_cop_ktm)then{
+            _pfad = "texture\donator\kleidung\KTM\";
+            if (uniform player isEqualTo "U_I_CombatUniform_shortsleeve") then {
+                player setObjectTextureGlobal [0, _pfad + "U_flake.jpg"];
+            };
 		};
     };
     case independent: {

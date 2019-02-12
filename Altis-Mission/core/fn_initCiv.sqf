@@ -6,11 +6,6 @@
     Description:
     Initializes the civilian.
 */
-if(!(str(player) in ["civ_1","civ_2","civ_3","civ_4","civ_5"]) && ((FETCH_CONST(life_donorlevel)) < 1) exitWith {
- ["noslotpermission",false,true] call BIS_fnc_endMission;
- sleep 35;
- };
-
 private _altisArray = ["Land_i_Shop_01_V1_F","Land_i_Shop_01_V2_F","Land_i_Shop_01_V3_F","Land_i_Shop_02_V1_F","Land_i_Shop_02_V2_F","Land_i_Shop_02_V3_F"];
 private _tanoaArray = ["Land_House_Small_01_F"];
 private _spawnBuildings = [[["Altis", _altisArray], ["Tanoa", _tanoaArray]]] call TON_fnc_terrainSort;
