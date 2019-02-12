@@ -140,6 +140,11 @@ private _index = -1;
 						}; 
 					};
 				};
+				
+				 _name = _text;
+                if(_x getVariable ["isBamby", false]) then {
+                    _text = format["<t color='#009900'>Neuling</t><br/>%1", _name];
+                };
 
 				_idc ctrlSetStructuredText parseText format ["<t align='center'>%1</t>",_text];
 				_idc ctrlSetPosition [(_sPos select 0) - 1.1, _sPos select 1, 2.8, 0.65];
