@@ -204,6 +204,7 @@ setCurrentChannel 5;
 6 enableChannel [true, false];
 7 enableChannel [true, false];
 8 enableChannel [true, false];
+call life_fnc_bambyInit;
 
 [getPlayerUID player,player getVariable ["realname",name player]] remoteExec ["life_fnc_wantedProfUpdate", 2];
 
