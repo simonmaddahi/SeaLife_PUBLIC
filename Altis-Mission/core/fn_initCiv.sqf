@@ -24,4 +24,4 @@ player addRating 9999999;
 }foreach [cop_tor_1,cop_tor_2,cop_tor_3,cop_tor_4,cop_tor_5,cop_tor_6,cop_tor_7,cop_tor_8,cop_tor_9,cop_tor_10,cop_tor_11,cop_tor_14,cop_tor_15,cop_tor_16,cop_tor_17,cop_tor_18,cop_tor_19,cop_tor_20,cop_tor_21,cop_tor_22,cop_tor_23,cop_tor_24,cop_tor_25,cop_tor_26,cop_tor_27,cop_tor_28,cop_tor_29,cop_tor_30,cop_tor_31,cop_tor_32,cop_tor_33,cop_tor_34,cop_tor_35,cop_tor_36,cop_tor_37,cop_tor_38,cop_tor_39,cop_tor_40,cop_tor_41,cop_tor_42,cop_tor_43,cop_tor_44,cop_tor_45,cop_tor_46,cop_tor_47,cop_tor_48,cop_tor_49];
 
 //call life_fnc_newBe; //Neulingsystem
-call life_fnc_bambyInit; //Neues Neulingsystem
+//call life_fnc_bambyInit; //Neues Neulingsystem in init eingetragen
