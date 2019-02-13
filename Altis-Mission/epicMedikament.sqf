@@ -6,9 +6,9 @@
 private ["_type","_player","_heal_1","_heal_2","_heal","_chance"];
 
 _player = name player;
-_heal_1= (1 - damage player) * 20;
-_heal_2= (1 - damage player) * 40;
-_heal= (1 - damage player) * 100;
+_heal_1 = (1 - damage player) * 20;
+_heal_2 = (1 - damage player) * 40;
+_heal = (1 - damage player) * 100;
 _chance = floor(random(50));
 
 if ((damage player) == 100)) exitWith {
