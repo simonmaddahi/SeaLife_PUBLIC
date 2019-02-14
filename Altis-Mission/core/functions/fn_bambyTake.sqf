@@ -1,7 +1,8 @@
 #include "..\..\script_macros.hpp"
 /*
 	File: fn_bambyTake.sqf
-	Author: nflug
+	Author: Natic
+	Helped by: Nflug
 	
 	# Author bitte nicht entfernen!
 	# Veränderungen an dieser Datei sind erlaubt.
@@ -15,7 +16,7 @@ _item = _this select 2;
 _check = false;
 
 life_fnc_bambyRemove = {
-	hint parseText "<t color='#139822' size='1.2'>Bamby-Schutz</t><br/><br/>Du hast deinen Bamby-Schutz verloren da du ein unerlaubtes Item oder eine Waffe aufgenommen hast!";
+	hint parseText "<t color='#139822' size='1.2'>NeulingSchutz</t><br/><br/>Du hast deinen Neuling-Schutz verloren da du ein unerlaubtes Item oder eine Waffe aufgenommen hast!";
 
 	life_bamby_broke = true;
 	profileNamespace setVariable ["bamby",0];
