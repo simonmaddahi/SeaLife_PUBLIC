@@ -154,6 +154,7 @@ if ((group player getVariable ["gang_tag", ""]) isEqualTo "") then {
 
  
 [1, "Lade Displays", 11, 15] call life_fnc_ladeSpieler;
+call life_fnc_bambyInit; //Lade Neulingsystem
 
 diag_log "Past Settings Init";
 execFSM "core\fsm\client.fsm";
@@ -204,7 +205,6 @@ setCurrentChannel 5;
 6 enableChannel [true, false];
 7 enableChannel [true, false];
 8 enableChannel [true, false];
-call life_fnc_bambyInit;
 
 [getPlayerUID player,player getVariable ["realname",name player]] remoteExec ["life_fnc_wantedProfUpdate", 2];
 
