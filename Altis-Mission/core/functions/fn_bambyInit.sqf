@@ -36,7 +36,7 @@ for "_i" from 1 to _time do {
 
 if(life_bamby_broke) exitWith {};
 
-hint parseText "<t color='#139822' size='1.2'>Bamby-Schutz</t><br/><br/>Dein Bamby-Schutz ist nun abgelaufen und du bist verwundbar!";
+hint parseText "<t color='#139822' size='1.2'>Bamby-Schutz</t><br/><br/>Dein Neuling-Schutz ist nun abgelaufen und du bist verwundbar!";
 
 profileNamespace setVariable ["bamby", 0];
 saveProfileNamespace;
