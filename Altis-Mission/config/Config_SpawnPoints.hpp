@@ -29,20 +29,6 @@ class CfgSpawnPoints {
                 conditions = "";
             };
 			
-			class Flugzeugtraeger {
-                displayName = "Flugzeugträger";
-                spawnMarker = "flugzeugträger_Spawn";
-                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-                conditions = "";
-            };
-			
-			class Zentum {
-                displayName = "(Kommt vor der Beta!) raus Illigalles Zentum!";
-                spawnMarker = "illigalles";
-                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-                conditions = "";
-            };
-			
             class Kavala {
                 displayName = "Kavala";
                 spawnMarker = "civ_spawn_1";

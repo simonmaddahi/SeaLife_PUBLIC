@@ -336,8 +336,6 @@ class CfgFunctions {
 			class ladeSpieler {};
 			class mapfilter {};
 			class injuredmenu {};
-			class bambyTake {};
-			class bambyInit {};
 		};
 
 		class Gangs {

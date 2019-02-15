@@ -167,6 +167,29 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
+	
+	class beta {
+        variable = "beta";
+        displayName = "Beta-Teilnehmmer";
+        price = 7500000;
+        illegal = false;
+        side = "civ";
+    };
+	class premiumbeta {
+        variable = "premiumbeta";
+        displayName = "Premium-Beta";
+        price = 7500000;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class team {
+        variable = "team";
+        displayName = "SeaLife-Mitgliedschaft";
+        price = 7500000;
+        illegal = false;
+        side = "civ";
+    };
 
     //Cop Licenses
     class cAir {

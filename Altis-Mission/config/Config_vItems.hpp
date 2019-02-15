@@ -24,7 +24,23 @@ class VirtualShops {
         items[] = { "coffee", "tbacon", "donuts", "waterBottle", "fuelFull", "bandage", "akku" };
     };
 
-    class reb_markt {
+    class mafia {
+        name = "STR_Shops_Rebel";
+        side = "civ";
+        license = "yakuza";
+        conditions = "";
+        items[] = { "waterBottle", "tbacon", "redgull", "fuelFull", "bandage", "boltcutter", "blastingcharge", "kabelbinder", "lockpick", "augenbinde" };
+    };
+	
+	class yakuza {
+        name = "STR_Shops_Rebel";
+        side = "civ";
+        license = "yakuza";
+        conditions = "";
+        items[] = { "waterBottle", "tbacon", "redgull", "fuelFull", "bandage", "boltcutter", "blastingcharge", "kabelbinder", "lockpick", "augenbinde" };
+    };
+	
+	class rocker {
         name = "STR_Shops_Rebel";
         side = "civ";
         license = "yakuza";

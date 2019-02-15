@@ -1937,6 +1937,15 @@
 		<Key ID="STR_License_ktm2">
             <Original>KTM-Mitgliedschaft</Original>
         </Key>
+		<Key ID="STR_License_team">
+            <Original>SeaLife-Mitgliedschaft</Original>
+        </Key>
+		<Key ID="STR_License_beta">
+            <Original>Beta-Teilnehmmer</Original>
+        </Key>
+		<Key ID="STR_License_premiumbeta">
+            <Original>Premium-Beta</Original>
+        </Key>
 		<Key ID="STR_License_premium1">
             <Original>Premium-LVL 1</Original>
         </Key>

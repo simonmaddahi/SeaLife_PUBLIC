@@ -154,7 +154,6 @@ if ((group player getVariable ["gang_tag", ""]) isEqualTo "") then {
 
  
 [1, "Lade Displays", 11, 15] call life_fnc_ladeSpieler;
-call life_fnc_bambyInit; //Lade Neulingsystem
 
 diag_log "Past Settings Init";
 execFSM "core\fsm\client.fsm";

@@ -15,11 +15,6 @@ class Life_Settings {
     player_moneyLog = true; //False [default] - No money logging. True - Logs player bank deposits, withdraws, and transfers, gang bank deposits and withdraws, money picked up off of the ground, and player robbery. Search for: money_log
     player_deathLog = true; //False [default] - No death logging. True - Logs victim and killer, and vehicle or weapon if used, when a player dies. Search for: death_log
 
-	/* Bamby Schutz */
-	bamby_time = 240; //Time 4 Hours default
-	bamby_items[] = {""}; //Items
-	bamby_weapons = true; //Allowed to take Weapons
-
 /* Database Related Settings */
     /* Player Data Saving */
     save_virtualItems = true; //Save Virtual items (all sides)?

@@ -1410,7 +1410,7 @@ class LifeCfgVehicles {
         price_cop = 15000000;
         price_med = 15000000;
         textures[] = {
-            {
+			{
                 "Braune Tarnung",
                 "civ",
                 {
@@ -1431,7 +1431,12 @@ class LifeCfgVehicles {
                     "a3\structures_f_epc\items\electronics\data\the_device_02_co.paa",
                     "a3\structures_f_epc\items\electronics\data\the_device_03_co.paa"
                 }
-            }
+            },
+			{ "Grenzgänger (Premium Lackierung)", 
+			   "civ", {
+					"texture\donator\premium\gerat11.paa",
+					"texture\donator\premium\gerat22.paa",
+				}, "license_civ_premium1" }
         };
 		materials[] = {
 			0, 1, 2
@@ -1749,6 +1754,40 @@ class LifeCfgVehicles {
                     "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa"
                 }
             },
+			{
+                "Rockstargelb",
+                "civ",
+                {
+                    "texture\civ_fahrzeuge\Offroad\civ_offroad_rockstargelb.jpg"
+                }
+            },
+			{
+                "Rockstarlila",
+                "civ",
+                {
+                    "texture\civ_fahrzeuge\Offroad\civ_offroad_rockstarlila.jpg"
+                }
+            },
+			{
+                "Sticker",
+                "civ",
+                {
+                    "texture\civ_fahrzeuge\Offroad\civ_offroad_sticker.jpg"
+                }
+            },
+			{
+                "Weed",
+                "civ",
+                {
+                    "texture\civ_fahrzeuge\Offroad\civ_offroad_weed.jpg"
+                }
+            },
+			{
+                "Twitch (Premium Lackierung)",
+                "civ",
+                {
+                    "texture\donator\premium\civ_OffroadTwitch.paa"
+                },  "license_civ_premium1" },
             {
                 "Polizei",
                 "cop",
@@ -1806,20 +1845,6 @@ class LifeCfgVehicles {
         price_cop = 21000;
         price_med = 0;
         textures[] = {
-            {
-                "Gold (Premium Lackierung)",
-                "civ",
-                {
-                    "texture\donator\premium\Premium.paa"
-                }
-            },
-			{
-                "Unicorn (Premium Lackierung)",
-                "civ",
-                {
-                    "texture\donator\premium\limo_unicorn.jpg"
-                }
-            },
 			{
                 "Rot",
                 "civ",
@@ -1863,12 +1888,58 @@ class LifeCfgVehicles {
                 }
 			},
 			{
+				"Camo Grau",
+				"civ",
+				{
+					"texture\civ_fahrzeuge\Hatchback\hatchback_camo_grau.paa"
+				}
+            },
+			{
+				"Camo Pink",
+				"civ",
+				{
+					"texture\civ_fahrzeuge\Hatchback\hatchback_camo_pink.paa"
+				}
+            },
+			{
+				"Camo Blau",
+				"civ",
+				{
+					"texture\civ_fahrzeuge\Hatchback\hatchback_camo_blau.paa"
+				}
+            },
+			{
 				"Free Candy",
 				"civ",
 				{
-					"texture\hatch\hatch_free_candy.jpg"
+					"texture\civ_fahrzeuge\Hatchback\hatch_free_candy.jpg"
 				}
             },
+			{
+				"Spiderman",
+				"civ",
+				{
+					"texture\civ_fahrzeuge\Hatchback\Hatchback_spider.paa"
+				}
+            },
+			{
+                "Gold (Premium Lackierung)",
+                "civ",
+                {
+                    "texture\donator\premium\Premium.paa"
+                },  "license_civ_premium1" },
+			{
+                "Unicorn (Premium Lackierung)",
+                "civ",
+                {
+                    "texture\donator\premium\limo_unicorn.jpg"
+                },  "license_civ_premium1" },
+			{
+                "Golden Dragon (Premium Lackierung)",
+                "civ",
+                {
+                    "texture\donator\premium\civ_HatchbackDLore.paa"
+                },  "license_civ_premium1" },
             {
                 "Polizei",
                 "cop",
@@ -2080,6 +2151,66 @@ class LifeCfgVehicles {
                 }
 			},
 			{
+				"Camo Grau",
+				"civ",
+				{
+					"texture\civ_fahrzeuge\Hatchback\hatchback_camo_grau.paa"
+				}
+            },
+			{
+				"Camo Pink",
+				"civ",
+				{
+					"texture\civ_fahrzeuge\Hatchback\hatchback_camo_pink.paa"
+				}
+            },
+			{
+				"Camo Blau",
+				"civ",
+				{
+					"texture\civ_fahrzeuge\Hatchback\hatchback_camo_blau.paa"
+				}
+            },
+			{
+				"Free Candy",
+				"civ",
+				{
+					"texture\civ_fahrzeuge\Hatchback\hatch_free_candy.jpg"
+				}
+            },
+			{
+				"Spiderman",
+				"civ",
+				{
+					"texture\civ_fahrzeuge\Hatchback\Hatchback_spider.paa"
+				}
+            },
+			{
+                "Gold (Premium Lackierung)",
+                "civ",
+                {
+                    "texture\donator\premium\Premium.paa"
+                },  "license_civ_premium1" },
+			{
+                "Unicorn (Premium Lackierung)",
+                "civ",
+                {
+                    "texture\donator\premium\limo_unicorn.jpg"
+                },  "license_civ_premium1" },
+			{
+                "Golden Dragon (Premium Lackierung)",
+                "civ",
+                {
+                    "texture\donator\premium\civ_HatchbackDLore.paa"
+                },  "license_civ_premium1" },
+            {
+                "Polizei",
+                "cop",
+                {
+                    "texture\cop\polizei_hatchback.paa"
+                }
+            },
+			{
 				"Feuerwehr",
 				"med",
 				{
@@ -2099,13 +2230,10 @@ class LifeCfgVehicles {
         price_cop = 5700;
         price_med = 0;
         textures[] = {
-            {
-                "Venox",
-                "civ",
-                {
-                    "texture\donator\auto\Venox\venox_suv.jpg"
-                }
-            },
+			{ "Venox", 
+			   "civ", {
+					"texture\donator\auto\Venox\venox_suv.jpg"
+				}, "license_civ_venox" },
 			{
                 "Taxi",
                 "civ",
