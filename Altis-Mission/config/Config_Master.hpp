@@ -15,10 +15,6 @@ class Life_Settings {
     player_moneyLog = true; //False [default] - No money logging. True - Logs player bank deposits, withdraws, and transfers, gang bank deposits and withdraws, money picked up off of the ground, and player robbery. Search for: money_log
     player_deathLog = true; //False [default] - No death logging. True - Logs victim and killer, and vehicle or weapon if used, when a player dies. Search for: death_log
 
-	bamby_time = 340; //Zeit in Minuten wie lange der Schutz andauern soll.
-	bamby_items[] = {""}; //Bamby Schutz hört auf wenn der Spieler eines dieser Items aufnimmt
-	bamby_weapons = true; //Bamby Schutz hört auf wenn der Spieler eine Waffe aufnimmt
-
 /* Database Related Settings */
     /* Player Data Saving */
     save_virtualItems = true; //Save Virtual items (all sides)?

@@ -1947,16 +1947,13 @@
             <Original>Premium-Beta</Original>
         </Key>
 		<Key ID="STR_License_premium1">
-            <Original>Premium-LVL 1</Original>
+            <Original>Premium-Mitgliedschaft</Original>
         </Key>
-		<Key ID="STR_License_premium2">
-            <Original>Premium-LVL 2</Original>
+		<Key ID="STR_License_premium">
+            <Original>Premium-Mitgliedschaft</Original>
         </Key>
-		<Key ID="STR_License_premium3">
-            <Original>Premium-LVL 3</Original>
-        </Key>
-		<Key ID="STR_License_premiumvip">
-            <Original>Premium-VIP</Original>
+		<Key ID="STR_License_zivilpolizei">
+            <Original>Zivilpolizei</Original>
         </Key>
 		<Key ID="STR_License_mafia">
             <Original>Mafia-Mitgliedschaft</Original>

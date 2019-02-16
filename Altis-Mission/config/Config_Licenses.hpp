@@ -138,31 +138,7 @@ class Licenses {
 	
 	class premium1 {
         variable = "premium1";
-        displayName = "Premium-LVL 1";
-        price = 7500000;
-        illegal = false;
-        side = "civ";
-    };
-	
-	class premium2 {
-        variable = "premium2";
-        displayName = "Premium-LVL 2";
-        price = 7500000;
-        illegal = false;
-        side = "civ";
-    };
-	
-	class premium3 {
-        variable = "premium3";
-        displayName = "Premium-LVL 3";
-        price = 7500000;
-        illegal = false;
-        side = "civ";
-    };
-	
-	class premiumvip {
-        variable = "premiumvip";
-        displayName = "Premium-VIP";
+        displayName = "Premium-Mitgliedschaft";
         price = 7500000;
         illegal = false;
         side = "civ";
@@ -211,6 +187,22 @@ class Licenses {
 	class ktm {
         variable = "ktm";
         displayName = "KTM-Mitgliedschaft";
+        price = 8000;
+        illegal = false;
+        side = "cop";
+    };
+	
+	class zivilpolizei {
+        variable = "zivilpolizei";
+        displayName = "Zivilpolizei";
+        price = 8000;
+        illegal = false;
+        side = "cop";
+    };
+	
+	class premium {
+        variable = "premium";
+        displayName = "Premium-Mitgliedschaft";
         price = 8000;
         illegal = false;
         side = "cop";

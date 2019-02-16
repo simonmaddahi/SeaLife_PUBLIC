@@ -395,7 +395,7 @@ class CarShops {
 			{
               "C_Offroad_01_F",
               "call life_coplevel >= 2"
-            },//C_Offroad_02_unarmed_F
+            },
 			{
               "C_Offroad_02_unarmed_F",
               "call life_coplevel >= 3"
@@ -607,7 +607,11 @@ class LifeCfgVehicles {
         price_cop = 5700;
         price_med = 1;
         textures[] = {
-            {
+            { "Regenbogen (Premium Lackierung)", 
+			   "civ", {
+					"texture\donator\premium\HippieMw4Wd.jpg"
+				}, "license_civ_premium1" },
+			{
                 "Schwarz",
                 "civ",
                 {
@@ -1788,6 +1792,40 @@ class LifeCfgVehicles {
                 {
                     "texture\donator\premium\civ_OffroadTwitch.paa"
                 },  "license_civ_premium1" },
+			{
+                "Rockstargelb",
+                "cop",
+                {
+                    "texture\civ_fahrzeuge\Offroad\civ_offroad_rockstargelb.jpg"
+                }
+            },
+			{
+                "Rockstarlila",
+                "cop",
+                {
+                    "texture\civ_fahrzeuge\Offroad\civ_offroad_rockstarlila.jpg"
+                }
+            },
+			{
+                "Sticker",
+                "cop",
+                {
+                    "texture\civ_fahrzeuge\Offroad\civ_offroad_sticker.jpg"
+                }
+            },
+			{
+                "Weed",
+                "cop",
+                {
+                    "texture\civ_fahrzeuge\Offroad\civ_offroad_weed.jpg"
+                }
+            },
+			{
+                "Zivilpolizei - Twitch (Premium Lackierung)",
+                "cop",
+                {
+                    "texture\donator\premium\civ_OffroadTwitch.paa"
+                },  "license_civ_premium" },
             {
                 "Polizei",
                 "cop",
@@ -1940,6 +1978,59 @@ class LifeCfgVehicles {
                 {
                     "texture\donator\premium\civ_HatchbackDLore.paa"
                 },  "license_civ_premium1" },
+			{
+				"Camo Grau",
+				"cop",
+				{
+					"texture\civ_fahrzeuge\Hatchback\hatchback_camo_grau.paa"
+				}
+            },
+			{
+				"Camo Pink",
+				"cop",
+				{
+					"texture\civ_fahrzeuge\Hatchback\hatchback_camo_pink.paa"
+				}
+            },
+			{
+				"Camo Blau",
+				"cop",
+				{
+					"texture\civ_fahrzeuge\Hatchback\hatchback_camo_blau.paa"
+				}
+            },
+			{
+				"Free Candy",
+				"cop",
+				{
+					"texture\civ_fahrzeuge\Hatchback\hatch_free_candy.jpg"
+				}
+            },
+			{
+				"Spiderman",
+				"cop",
+				{
+					"texture\civ_fahrzeuge\Hatchback\Hatchback_spider.paa"
+				}
+            },
+			{
+                "Zivilpolizei - Gold (Premium Lackierung)",
+                "cop",
+                {
+                    "texture\donator\premium\Premium.paa"
+                },  "license_civ_premium" },
+			{
+                "Zivilpolizei - Unicorn (Premium Lackierung)",
+                "cop",
+                {
+                    "texture\donator\premium\limo_unicorn.jpg"
+                },  "license_civ_premium" },
+			{
+                "Zivilpolizei - Golden Dragon (Premium Lackierung)",
+                "cop",
+                {
+                    "texture\donator\premium\civ_HatchbackDLore.paa"
+                },  "license_civ_premium" },
             {
                 "Polizei",
                 "cop",
@@ -1987,7 +2078,12 @@ class LifeCfgVehicles {
         price_cop = 800000;
         price_med = 800000;
         textures[] = {
-            {
+            { "Trabi (Premium Lackierung)", 
+			   "civ", {
+					"texture\donator\premium\zamak_trabi_1.jpg",
+					"texture\donator\premium\zamak_trabi_2.jpg"
+				}, "license_civ_premium1" },
+			{
                 "Orange",
                 "civ",
                 {
@@ -2032,7 +2128,12 @@ class LifeCfgVehicles {
         price_cop = 750000;
         price_med = 750000;
         textures[] = {
-            {
+            { "Trabi (Premium Lackierung)", 
+			   "civ", {
+					"texture\donator\premium\zamak_trabi_1.jpg",
+					"texture\donator\premium\zamak_trabi_2.jpg"
+				}, "license_civ_premium1" },
+			{
                 "Orange",
                 "civ",
                 {
@@ -2234,6 +2335,38 @@ class LifeCfgVehicles {
 			   "civ", {
 					"texture\donator\auto\Venox\venox_suv.jpg"
 				}, "license_civ_venox" },
+			{ "Beta-SeaLife", 
+			   "civ", {
+					"texture\civ_fahrzeuge\beta\BetaTester.paa"
+				}, "license_civ_beta" },
+			{ "Playerunknown's Battlegrounds (Premium Lackierung)", 
+			   "civ", {
+					"texture\donator\premium\Battlegrounds.jpg"
+				}, "license_civ_premium1" },
+			{ "Deadpool (Premium Lackierung)", 
+			   "civ", {
+					"texture\donator\premium\deadpool_suv.jpg"
+				}, "license_civ_premium1" },
+			{ "Fortnite (Premium Lackierung)", 
+			   "civ", {
+					"texture\donator\premium\fortnite.jpg"
+				}, "license_civ_premium1" },
+			{ "Joker (Premium Lackierung)", 
+			   "civ", {
+					"texture\donator\premium\Jokersuvs.jpg"
+				}, "license_civ_premium1" },
+			{ "Regenbogen (Premium Lackierung)", 
+			   "civ", {
+					"texture\donator\premium\regenbogen.jpg"
+				}, "license_civ_premium1" },
+			{ "Berg (Premium Lackierung)", 
+			   "civ", {
+					"texture\donator\premium\berg.jpg"
+				}, "license_civ_premium1" },
+			{ "Pixel (Premium Lackierung)", 
+			   "civ", {
+					"texture\donator\premium\suv_pixel.jpg"
+				}, "license_civ_premium1" },
 			{
                 "Taxi",
                 "civ",
@@ -2318,6 +2451,71 @@ class LifeCfgVehicles {
                     "texture\fw\suv\fw_suv.jpg"
                 }
             },
+			{
+                "Zivilpolizei - Taxi",
+                "cop",
+                {
+                    "texture\civ_fahrzeuge\suv\taxi_suv.jpg"
+                }
+            },
+			{
+                "Zivilpolizei - Anwalt",
+                "cop",
+                {
+                    "texture\civ_fahrzeuge\suv\suv_anwalt.jpg"
+                }
+            },
+			{
+                "Zivilpolizei - Packman",
+                "cop",
+                {
+                    "texture\civ_fahrzeuge\suv\packman.jpg"
+                }
+            },
+			{ "Zivilpolizei - Anwalt", 
+			   "cop", {
+					"texture\civ_fahrzeuge\suv\suv_anwalt.jpg"
+				}, "license_civ_zivilpolizei" },
+			{ "Zivilpolizei - Packman", 
+			   "cop", {
+					"texture\civ_fahrzeuge\suv\packman.jpg"
+				}, "license_civ_zivilpolizei" },
+			{ "Zivilpolizei - Taxi", 
+			   "cop", {
+					"texture\civ_fahrzeuge\suv\taxi_suv.jpg"
+				}, "license_civ_zivilpolizei" },
+			{ "Zivilpolizei - Playerunknown's Battlegrounds (Premium Lackierung)", 
+			   "cop", {
+					"texture\donator\premium\Battlegrounds.jpg"
+				}, "license_civ_premium" },
+			{ "Zivilpolizei - Deadpool (Premium Lackierung)", 
+			   "cop", {
+					"texture\donator\premium\deadpool_suv.jpg"
+				}, "license_civ_premium" },
+			{ "Zivilpolizei - Fortnite (Premium Lackierung)", 
+			   "cop", {
+					"texture\donator\premium\fortnite.jpg"
+				}, "license_civ_premium" },
+			{ "Zivilpolizei - Joker (Premium Lackierung)", 
+			   "cop", {
+					"texture\donator\premium\Jokersuvs.jpg"
+				}, "license_civ_premium" },
+			{ "Zivilpolizei - Regenbogen (Premium Lackierung)", 
+			   "cop", {
+					"texture\donator\premium\regenbogen.jpg"
+				}, "license_civ_premium" },
+			{ "Zivilpolizei - Berg (Premium Lackierung)", 
+			   "cop", {
+					"texture\donator\premium\berg.jpg"
+				}, "license_civ_premium" },
+			{ "Zivilpolizei - Pixel (Premium Lackierung)", 
+			   "cop", {
+					"texture\donator\premium\suv_pixel.jpg"
+				}, "license_civ_premium" },
+			{ "Beta-SeaLife", 
+			   "cop", {
+					"texture\civ_fahrzeuge\beta\BetaTester.paa"
+				}, "license_civ_beta" },
             {
                 "Polizei",
                 "cop",

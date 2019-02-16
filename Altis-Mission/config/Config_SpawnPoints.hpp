@@ -92,6 +92,12 @@ class CfgSpawnPoints {
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
+			 class Zivilpolizei {
+                displayName = "Zivilpolizei";
+                spawnMarker = "civ_sofia";
+                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+                conditions = "";
+            };
             class Pyrgos {
                 displayName = "Grenzposten";
                 spawnMarker = "cop_spaw";

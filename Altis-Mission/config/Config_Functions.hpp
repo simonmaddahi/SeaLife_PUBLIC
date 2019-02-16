@@ -206,8 +206,6 @@ class CfgFunctions {
 			class robReceive {};
 			class tazed {};
 			class civInteractionMenu {};
-			class bambyInit {};
-			class bambyTake {};
 		};
 
 		class Config {
@@ -306,7 +304,6 @@ class CfgFunctions {
 			class hudSetup {};
 			class hudUpdate {};
 			class inventoryClosed {};
-			class seatBelt {};
 			class inventoryOpened {};
 			class isUIDActive {};
 			class UIDToObj {};
@@ -339,6 +336,7 @@ class CfgFunctions {
 			class ladeSpieler {};
 			class mapfilter {};
 			class injuredmenu {};
+			class seatBelt {};
 		};
 
 		class Gangs {

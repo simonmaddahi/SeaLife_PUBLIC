@@ -20,7 +20,7 @@ switch (playerSide) do {
 		life_actions pushBack (player addAction["<t color = '#D660D6'>Anschnallgurt anlegen</t>",life_fnc_seatbelt,"",7,false,false,"",' !life_seatbelt && vehicle player != player ']);
 		life_actions pushBack (player addAction["<t color = '#D660D6'>Anschnallgurt entfernen</t>",life_fnc_seatbelt,"",7,false,false,"",' life_seatbelt && vehicle player != player ']);
 		//CaptureHideout
-		life_actions = life_actions + [player addAction["<t color='#FF0000'>Einnehmen</t>",life_fnc_areaCapture,"",0,false,false,"",' ((typeOf cursorTarget) == "Flag_Red_F") ']];
+		life_actions = life_actions + [player addAction["<t color='#FF0000'>Capture Gang Location</t>",life_fnc_areaCapture,"",0,false,false,"",' ((typeOf cursorTarget) == "Flag_Red_F") ']];
    };
 	
 	case west: {
