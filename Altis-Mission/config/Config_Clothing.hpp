@@ -61,7 +61,11 @@ class Clothing {
 			{ "U_C_man_sport_3_F", "", 3750, "" },
 			{ "U_C_man_sport_2_F", "", 3750, "" },
 			{ "U_C_man_sport_1_F", "", 3750, "" },
-			{ "U_C_Scientist", "", 3750, "" }
+			{ "U_C_Scientist", "", 3750, "" },
+			{ "I_Protagonist_VR_F", "VR-Anzug grün", 1, "call life_adminlevel >= 1" },
+			{ "O_Protagonist_VR_F", "VR-Anzug rot", 1, "call life_adminlevel >= 7" },
+			{ "C_Protagonist_VR_F", "VR-Anzug lila", 1, "call life_adminlevel >= 5" },
+			{ "B_Protagonist_VR_F", "VR-Anzug blau", 1, "call life_adminlevel >= 5" },
         };
 		
         headgear[] = {
