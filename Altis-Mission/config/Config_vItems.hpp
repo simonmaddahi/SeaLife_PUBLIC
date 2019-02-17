@@ -212,7 +212,7 @@ class VirtualItems {
         variable = "redgull";
         displayName = "STR_Item_RedGull";
         weight = 1;
-        buyPrice = 10000;
+        buyPrice = 1000;
         sellPrice = 0;
         illegal = false;
         edible = 100;
@@ -343,7 +343,7 @@ class VirtualItems {
         variable = "spikeStrip";
         displayName = "STR_Item_SpikeStrip";
         weight = 15;
-        buyPrice = 25000;
+        buyPrice = 2500;
         sellPrice = 1200;
         illegal = true;
         edible = -1;
