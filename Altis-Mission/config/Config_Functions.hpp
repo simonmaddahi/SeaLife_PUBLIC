@@ -339,6 +339,7 @@ class CfgFunctions {
 			class mapfilter {};
 			class injuredmenu {};
 			class seatBelt {};
+			class adminMode {};
 		};
 
 		class Gangs {
