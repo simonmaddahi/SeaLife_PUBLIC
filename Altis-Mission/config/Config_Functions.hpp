@@ -206,6 +206,8 @@ class CfgFunctions {
 			class robReceive {};
 			class tazed {};
 			class civInteractionMenu {};
+			class bambyTake {};
+			class bambyInit {};
 		};
 
 		class Config {
