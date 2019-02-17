@@ -2452,77 +2452,42 @@ class LifeCfgVehicles {
                 }
             },
 			{
-                "Zivilpolizei - Taxi",
+                "Streifenwagen",
                 "cop",
                 {
-                    "texture\civ_fahrzeuge\suv\taxi_suv.jpg"
-                }
+                    "texture\cop\polizei_suv.paa"
+                }				
             },
+
 			{
-                "Zivilpolizei - Anwalt",
+                "Zivilpolizei - Dunkelrot",
                 "cop",
                 {
-                    "texture\civ_fahrzeuge\suv\suv_anwalt.jpg"
-                }
-            },
-			{
-                "Zivilpolizei - Packman",
-                "cop",
-                {
-                    "texture\civ_fahrzeuge\suv\packman.jpg"
-                }
-            },
+                    "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_co.paa"
+                }			
+			},
+			
 			{ "Zivilpolizei - Anwalt", 
 			   "cop", {
 					"texture\civ_fahrzeuge\suv\suv_anwalt.jpg"
-				}, "license_civ_zivilpolizei" },
+				}, 	"license_civ_zivilpolizei" },
+			
 			{ "Zivilpolizei - Packman", 
 			   "cop", {
 					"texture\civ_fahrzeuge\suv\packman.jpg"
 				}, "license_civ_zivilpolizei" },
+			
 			{ "Zivilpolizei - Taxi", 
 			   "cop", {
 					"texture\civ_fahrzeuge\suv\taxi_suv.jpg"
 				}, "license_civ_zivilpolizei" },
-			{ "Zivilpolizei - Playerunknown's Battlegrounds (Premium Lackierung)", 
-			   "cop", {
-					"texture\donator\premium\Battlegrounds.jpg"
-				}, "license_civ_premium" },
-			{ "Zivilpolizei - Deadpool (Premium Lackierung)", 
-			   "cop", {
-					"texture\donator\premium\deadpool_suv.jpg"
-				}, "license_civ_premium" },
-			{ "Zivilpolizei - Fortnite (Premium Lackierung)", 
-			   "cop", {
-					"texture\donator\premium\fortnite.jpg"
-				}, "license_civ_premium" },
-			{ "Zivilpolizei - Joker (Premium Lackierung)", 
-			   "cop", {
-					"texture\donator\premium\Jokersuvs.jpg"
-				}, "license_civ_premium" },
-			{ "Zivilpolizei - Regenbogen (Premium Lackierung)", 
-			   "cop", {
-					"texture\donator\premium\regenbogen.jpg"
-				}, "license_civ_premium" },
+	
 			{ "Zivilpolizei - Berg (Premium Lackierung)", 
 			   "cop", {
 					"texture\donator\premium\berg.jpg"
-				}, "license_civ_premium" },
-			{ "Zivilpolizei - Pixel (Premium Lackierung)", 
-			   "cop", {
-					"texture\donator\premium\suv_pixel.jpg"
-				}, "license_civ_premium" },
-			{ "Beta-SeaLife", 
-			   "cop", {
-					"texture\civ_fahrzeuge\beta\BetaTester.paa"
-				}, "license_civ_beta" },
-            {
-                "Polizei",
-                "cop",
-                {
-                    "texture\cop\polizei_suv.paa"
-                }
-            }
+				}, "license_civ_premium" }
+			
+            
         };
 		materials[] = {
             0
