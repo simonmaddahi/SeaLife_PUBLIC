@@ -408,9 +408,9 @@ switch (_code) do {
                 _veh = vehicle player;
             };
 	//Shift + P = Adminmode Activated		
-	case 25: {
+	case 71: {
         if(_shift) then {
-            [] call life_fnc_adminmode;
+            [] call life_fnc_adminMode;
         };
     };
 
