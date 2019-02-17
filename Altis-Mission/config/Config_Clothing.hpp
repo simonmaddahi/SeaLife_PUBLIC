@@ -919,13 +919,12 @@ class Clothing {
         conditions = "";
         side = "cop";
         uniforms[] = {
-			{ "U_Rangemaster", "Polizeikommissar Uniform (Kurz)", 25, "call life_coplevel >= 3" },
+			{ "U_Rangemaster", "Polizeikommissar Uniform (Kurz)", 25, "call life_coplevel >= 1" },
             { "U_B_CTRG_3", "Polizei Uniform (Kurz)", 25, "call life_coplevel >= 3" },
 			{ "U_B_CTRG_1", "Polizei Uniform (Lang)", 25, "call life_coplevel >= 3" },
 			{ "U_C_Man_casual_2_F", "Polizeileitung (Kurz)", 25, "call life_coplevel >= 8" },
             { "U_B_CTRG_Soldier_urb_1_F", "Polizeileitung (Kurz)", 25, "call life_coplevel >= 8" },
-			{ "U_B_CTRG_Soldier_urb_3_F", "Polizeileitung (Lang)", 25, "call life_coplevel >= 8" },
-			{ "U_I_CombatUniform_shortsleeve", "Polizei Uniform (KTM)", 25, "call life_coplevel >= 12" }
+			{ "U_B_CTRG_Soldier_urb_3_F", "Polizeileitung (Lang)", 25, "call life_coplevel >= 8" }
         };
         headgear[] = {
             { "NONE", "Hut entfernen", 0, "" },
