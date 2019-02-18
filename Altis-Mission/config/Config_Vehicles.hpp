@@ -1,4 +1,4 @@
-﻿class CarShops {
+class CarShops {
     /*
      *    ARRAY FORMAT:
      *        0: STRING (Classname)
@@ -2483,25 +2483,24 @@ class LifeCfgVehicles {
 			   "cop", {
 					"texture\civ_fahrzeuge\suv\suv_anwalt.jpg"
 				}, 	"license_cop_zivilpolizei" },
-				}, 	"license_civ_zivilpolizei" },
 			
 			{ "Zivilpolizei - Packman", 
 			   "cop", {
 					"texture\civ_fahrzeuge\suv\packman.jpg"
 				}, "license_cop_zivilpolizei" },
-				}, "license_civ_zivilpolizei" },
 			
 			{ "Zivilpolizei - Taxi", 
 			   "cop", {
 					"texture\civ_fahrzeuge\suv\taxi_suv.jpg"
 				}, "license_cop_zivilpolizei" },
-				}, "license_civ_zivilpolizei" },
 	
 			{ "Zivilpolizei - Berg (Premium Lackierung)", 
 			   "cop", {
 					"texture\donator\premium\berg.jpg"
 				}, "license_civ_premium" }
-			};
+			
+            
+        };
 		materials[] = {
             0
         };
