@@ -61,7 +61,11 @@ class Clothing {
 			{ "U_C_man_sport_3_F", "", 3750, "" },
 			{ "U_C_man_sport_2_F", "", 3750, "" },
 			{ "U_C_man_sport_1_F", "", 3750, "" },
-			{ "U_C_Scientist", "", 3750, "" }
+			{ "U_C_Scientist", "", 3750, "" },
+			{ "I_Protagonist_VR_F", "VR-Anzug grün", 1, "call life_adminlevel >= 1" },
+			{ "O_Protagonist_VR_F", "VR-Anzug rot", 1, "call life_adminlevel >= 7" },
+			{ "C_Protagonist_VR_F", "VR-Anzug lila", 1, "call life_adminlevel >= 5" },
+			{ "B_Protagonist_VR_F", "VR-Anzug blau", 1, "call life_adminlevel >= 5" }
         };
 		
         headgear[] = {
@@ -915,13 +919,12 @@ class Clothing {
         conditions = "";
         side = "cop";
         uniforms[] = {
-			{ "U_Rangemaster", "Polizeikommissar Uniform (Kurz)", 25, "call life_coplevel >= 3" },
+			{ "U_Rangemaster", "Polizeikommissar Uniform (Kurz)", 25, "call life_coplevel >= 1" },
             { "U_B_CTRG_3", "Polizei Uniform (Kurz)", 25, "call life_coplevel >= 3" },
 			{ "U_B_CTRG_1", "Polizei Uniform (Lang)", 25, "call life_coplevel >= 3" },
 			{ "U_C_Man_casual_2_F", "Polizeileitung (Kurz)", 25, "call life_coplevel >= 8" },
             { "U_B_CTRG_Soldier_urb_1_F", "Polizeileitung (Kurz)", 25, "call life_coplevel >= 8" },
-			{ "U_B_CTRG_Soldier_urb_3_F", "Polizeileitung (Lang)", 25, "call life_coplevel >= 8" },
-			{ "U_I_CombatUniform_shortsleeve", "Polizei Uniform (KTM)", 25, "call life_coplevel >= 12" }
+			{ "U_B_CTRG_Soldier_urb_3_F", "Polizeileitung (Lang)", 25, "call life_coplevel >= 8" }
         };
         headgear[] = {
             { "NONE", "Hut entfernen", 0, "" },

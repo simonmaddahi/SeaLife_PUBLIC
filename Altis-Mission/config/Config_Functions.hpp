@@ -206,6 +206,8 @@ class CfgFunctions {
 			class robReceive {};
 			class tazed {};
 			class civInteractionMenu {};
+			class bambyTake {};
+			class bambyInit {};
 		};
 
 		class Config {
@@ -337,6 +339,7 @@ class CfgFunctions {
 			class mapfilter {};
 			class injuredmenu {};
 			class seatBelt {};
+			class adminMode {};
 		};
 
 		class Gangs {

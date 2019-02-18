@@ -20,11 +20,12 @@ if ((FETCH_CONST(life_copLevel)) < 1 && (FETCH_CONST(life_adminlevel) isEqualTo 
     sleep 35;
 };
 
-if(!(str(player) in ["cop_1"]) && (FETCH_CONST(life_copLevel))) < 10) exitWith {
- ["noslotpermission",false,true] call BIS_fnc_endMission;
+if ((str(player) in ["cop_1"])) then {
+ if ((FETCH_CONST(life_coplevel)) < 10) then {
+ ["NotWhitelisted",false,true] call BIS_fnc_endMission;
  sleep 35;
  };
-
+};
 
 player setVariable ["rank",(FETCH_CONST(life_coplevel)),true];
 

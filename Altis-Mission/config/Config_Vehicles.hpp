@@ -206,7 +206,7 @@ class CarShops {
     class reb_car {
         side = "civ";
 		title = "Rebellen Fahrzeuge";
-        conditions = "license_civ_rebel";
+        conditions = "";
         vehicles[] = {
 			{
               "B_T_LSV_01_unarmed_F",
@@ -223,6 +223,10 @@ class CarShops {
 			{
               "O_MRAP_02_F",
               ""
+            },
+			{
+              "I_MRAP_03_F",
+              ""
             }
         };
     };
@@ -230,16 +234,24 @@ class CarShops {
     class reb_air {
         side = "civ";
 		title = "Rebellen Luftfahrzeuge";
-        conditions = "license_civ_rebel";
+        conditions = "";
         vehicles[] = {
             {
                 "B_Heli_Light_01_F",
                 ""
             },
-			//{
-            //    "I_Heli_light_03_unarmed_F",
-            //    ""
-            //},
+			{
+                "I_Heli_light_03_unarmed_F",
+                ""
+            },
+			{
+                "B_Heli_Attack_01_F",
+                ""
+            },
+			{
+                "B_T_VTOL_01_vehicle_F",
+                ""
+            },
 			{
                 "O_Heli_Transport_04_bench_F",
                 ""
@@ -250,7 +262,7 @@ class CarShops {
 	class reb_boot {  //Muss noch auf die Mapp!
         side = "civ";
 		title = "Rebellen Bootshop";
-        conditions = "license_civ_rebel";
+        conditions = "";
         vehicles[] = {
             {
                 "C_Boat_Civil_01_F",
@@ -2452,77 +2464,42 @@ class LifeCfgVehicles {
                 }
             },
 			{
-                "Zivilpolizei - Taxi",
-                "cop",
-                {
-                    "texture\civ_fahrzeuge\suv\taxi_suv.jpg"
-                }
-            },
-			{
-                "Zivilpolizei - Anwalt",
-                "cop",
-                {
-                    "texture\civ_fahrzeuge\suv\suv_anwalt.jpg"
-                }
-            },
-			{
-                "Zivilpolizei - Packman",
-                "cop",
-                {
-                    "texture\civ_fahrzeuge\suv\packman.jpg"
-                }
-            },
-			{ "Zivilpolizei - Anwalt", 
-			   "cop", {
-					"texture\civ_fahrzeuge\suv\suv_anwalt.jpg"
-				}, "license_civ_zivilpolizei" },
-			{ "Zivilpolizei - Packman", 
-			   "cop", {
-					"texture\civ_fahrzeuge\suv\packman.jpg"
-				}, "license_civ_zivilpolizei" },
-			{ "Zivilpolizei - Taxi", 
-			   "cop", {
-					"texture\civ_fahrzeuge\suv\taxi_suv.jpg"
-				}, "license_civ_zivilpolizei" },
-			{ "Zivilpolizei - Playerunknown's Battlegrounds (Premium Lackierung)", 
-			   "cop", {
-					"texture\donator\premium\Battlegrounds.jpg"
-				}, "license_civ_premium" },
-			{ "Zivilpolizei - Deadpool (Premium Lackierung)", 
-			   "cop", {
-					"texture\donator\premium\deadpool_suv.jpg"
-				}, "license_civ_premium" },
-			{ "Zivilpolizei - Fortnite (Premium Lackierung)", 
-			   "cop", {
-					"texture\donator\premium\fortnite.jpg"
-				}, "license_civ_premium" },
-			{ "Zivilpolizei - Joker (Premium Lackierung)", 
-			   "cop", {
-					"texture\donator\premium\Jokersuvs.jpg"
-				}, "license_civ_premium" },
-			{ "Zivilpolizei - Regenbogen (Premium Lackierung)", 
-			   "cop", {
-					"texture\donator\premium\regenbogen.jpg"
-				}, "license_civ_premium" },
-			{ "Zivilpolizei - Berg (Premium Lackierung)", 
-			   "cop", {
-					"texture\donator\premium\berg.jpg"
-				}, "license_civ_premium" },
-			{ "Zivilpolizei - Pixel (Premium Lackierung)", 
-			   "cop", {
-					"texture\donator\premium\suv_pixel.jpg"
-				}, "license_civ_premium" },
-			{ "Beta-SeaLife", 
-			   "cop", {
-					"texture\civ_fahrzeuge\beta\BetaTester.paa"
-				}, "license_civ_beta" },
-            {
-                "Polizei",
+                "Streifenwagen",
                 "cop",
                 {
                     "texture\cop\polizei_suv.paa"
-                }
-            }
+                }				
+            },
+
+			{
+                "Zivilpolizei - Dunkelrot",
+                "cop",
+                {
+                    "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_co.paa"
+                }			
+			},
+			
+			{ "Zivilpolizei - Anwalt", 
+			   "cop", {
+					"texture\civ_fahrzeuge\suv\suv_anwalt.jpg"
+				}, 	"license_cop_zivilpolizei" },
+			
+			{ "Zivilpolizei - Packman", 
+			   "cop", {
+					"texture\civ_fahrzeuge\suv\packman.jpg"
+				}, "license_cop_zivilpolizei" },
+			
+			{ "Zivilpolizei - Taxi", 
+			   "cop", {
+					"texture\civ_fahrzeuge\suv\taxi_suv.jpg"
+				}, "license_cop_zivilpolizei" },
+	
+			{ "Zivilpolizei - Berg (Premium Lackierung)", 
+			   "cop", {
+					"texture\donator\premium\berg.jpg"
+				}, "license_civ_premium" }
+			
+            
         };
 		materials[] = {
             0
@@ -2678,27 +2655,18 @@ class LifeCfgVehicles {
         price_cop = 28000;
         price_med = 300000;
         textures[] = {
-            {
-                "Venox",
-                "civ",
-                {
-                    "texture\donator\humingbird\Venox\venox_humingbird.jpg"
-                }
-            },
-			{
-                "John Player Special",
-                "civ",
-                {
-                    "texture\civ_fahrzeuge\zig_hummi\hummingbird_jps.jpg"
-                }
-            },
-			{
-                "Marlboro",
-                "civ",
-                {
-                    "texture\civ_fahrzeuge\zig_hummi\hummingbird_marlboro.jpg"
-                }
-            },
+			{ "Venox", 
+			   "civ", {
+					"texture\donator\humingbird\Venox\venox_humingbird.jpg"
+				}, "license_civ_venox" },
+			{ "Marlboro (Premium Lackierung)", 
+			   "civ", {
+					"texture\civ_fahrzeuge\zig_hummi\hummingbird_marlboro.jpg"
+				}, "license_civ_premium1" },
+			{ "John Player Special (Premium Lackierung)", 
+			   "civ", {
+					"texture\civ_fahrzeuge\zig_hummi\hummingbird_jps.jpg"
+				}, "license_civ_premium1" },
 			{
                 "Blau",
                 "civ",
@@ -3151,7 +3119,7 @@ class LifeCfgVehicles {
                 "Rettungsdienst",
                 "med",
                 {
-                    "texture\cop\polizei_hellcat.paa"
+                    "texture\rd\fw_hellcat.paa"
                 }
             }
         };

@@ -22,12 +22,19 @@ _name ctrlSetText format["%1",player getvariable ["realname",name player]];
 
 _geschlecht lbAdd "Männlich";
 _geschlecht lbAdd "Weiblich";
+_geschlecht lbAdd "Divers";
 _religion lbAdd "Deutsch";
 _religion lbAdd "Schweiz";
 _religion lbAdd "Österreich";
 _religion lbAdd "Polnisch";
 _religion lbAdd "Russisch";
 _religion lbAdd "Französisch";
+_religion lbAdd "Griechisch";
+_religion lbAdd "USA";
+_religion lbAdd "Italienisch";
+_religion lbAdd "Türkisch";
+_religion lbAdd "Schwedisch";
+_religion lbAdd "Andere";
 
 for "_i" from 1 to 31 do {
     _gtag lbAdd format["%1",_i];
