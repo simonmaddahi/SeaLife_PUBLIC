@@ -13,6 +13,7 @@ if (life_blacklisted) exitWith {
     sleep 30;
 };
 
+[] spawn life_fnc_placeablesInit;
 
 //Whitelist
 if ((FETCH_CONST(life_copLevel)) < 1 && (FETCH_CONST(life_adminlevel) isEqualTo 0)) exitWith {
