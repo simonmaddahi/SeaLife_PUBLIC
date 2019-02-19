@@ -16,13 +16,13 @@ civ_spawn_3 = nearestObjects[getMarkerPos "civ_spawn_3", _spawnBuildings,350];
 civ_spawn_4 = nearestObjects[getMarkerPos "civ_spawn_4", _spawnBuildings,350];
 civ_spawn_5 = nearestObjects[getMarkerPos "civ_spawn_5", _spawnBuildings,350];
 
-/*if ((str(player) in ["civ_1","civ_2","civ_3","civ_4","civ_5","civ_6","civ_7","civ_8","civ_9","civ_10"])) then {
+if ((str(player) in ["civ_1","civ_2","civ_3","civ_4","civ_5","civ_6","civ_7","civ_8","civ_9","civ_10"])) then {
  if ((FETCH_CONST(life_donorlevel)) < 1) then {
  ["premiumslot",false,true] call BIS_fnc_endMission;
  sleep 35;
  };
 };
-*/
+
 
 player addRating 9999999;
 
