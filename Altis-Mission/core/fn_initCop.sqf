@@ -14,15 +14,23 @@ if (life_blacklisted) exitWith {
 };
 
 
-
+//Whitelist
 if ((FETCH_CONST(life_copLevel)) < 1 && (FETCH_CONST(life_adminlevel) isEqualTo 0)) exitWith {
     ["Notwhitelisted",false,true] call BIS_fnc_endMission;
     sleep 35;
 };
 
+//Reserved Slots
 if ((str(player) in ["cop_1"])) then {
  if ((FETCH_CONST(life_coplevel)) < 10) then {
  ["sidechief",false,true] call BIS_fnc_endMission;
+ sleep 35;
+ };
+};
+
+if ((str(player) in ["cop_26","cop_27","cop_28"])) then {
+ if ((FETCH_CONST(life_donorlevel)) < 1) then {
+ ["premiumslot",false,true] call BIS_fnc_endMission;
  sleep 35;
  };
 };
