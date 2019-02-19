@@ -321,25 +321,9 @@ class CarShops {
 				"call life_mediclevel >= 3"
 			},
 			{
-				"B_Truck_01_transport_F",  //Tempest
-				"call life_mediclevel >= 5"
-			},
-			{
-				"O_Truck_03_fuel_F",  //Tempest tanken
-				"call life_mediclevel >= 6"
-			},
-			{
 				"O_Truck_03_repair_F",  //Tempest Repair
 				"call life_mediclevel >= 6"
-			},
-			{
-				"O_Truck_03_medical_F",  //Tempest Medical
-				"call life_mediclevel >= 6"
-			},
-			{
-				"O_Truck_03_ammo_F",  //Tempest Munition
-				"call life_mediclevel >= 9"
-            }
+			}
         };
     };
 
@@ -364,6 +348,18 @@ class CarShops {
                 "I_Heli_light_03_unarmed_F",  //Hellcat
                 "call life_mediclevel >= 7"
             },
+			{
+                "O_Heli_Transport_04_F",  //Taru Bank
+                "call life_mediclevel >= 7"
+			},
+			{
+                "Land_Pod_Heli_Transport_04_medevac_F",  //Bank
+                "call life_mediclevel >= 7"
+			}
+			{
+                "Land_Pod_Heli_Transport_04_bench_F",  //Bank
+                "call life_mediclevel >= 7"
+			},
 			{
                 "O_Heli_Transport_04_medevac_F",  //Taru Med
                 "call life_mediclevel >= 7"
@@ -1060,16 +1056,6 @@ class LifeCfgVehicles {
         price_cop = 250000;
         price_med = 250000;
         textures[] = {
-            {
-                "Rettungsdienst",
-                "med",
-                {
-                    "texture\med\truck_03_ext01_co.paa",
-                    "texture\med\truck_03_ext02_co.paa",
-                    "texture\med\truck_03_ammo_co.paa",
-                    "texture\med\truck_03_cargo_co.paa"
-                }
-			},
 			{
 				"Löschfahrzeug",
 				"med",
@@ -3629,7 +3615,45 @@ class LifeCfgVehicles {
         };
     };
 
-    class O_Heli_Transport_04_medevac_F {
+    class Land_Pod_Heli_Transport_04_bench_F {
+        vItemSpace = 300;
+        conditions = "";
+        price_civ = 4000000;
+        price_cop = 1000000;
+        price_med = 400000;
+        textures[] = {
+            {
+                "Rettungsdienst",
+                "med",
+                {
+                    "texture\rd\medic_taru_1.paa",
+                    "texture\rd\medic_taru_2.paa",
+                    "texture\rd\medic_taru_3.paa",
+                    "texture\rd\medic_taru_4.paa"
+                }
+            }
+        };
+	
+	class Land_Pod_Heli_Transport_04_medevac_F {
+        vItemSpace = 300;
+        conditions = "";
+        price_civ = 4500000;
+        price_cop = 1800000;
+        price_med = 150000;
+        textures[] = {
+            {
+                "Rettungsdienst",
+                "med",
+                {
+                    "texture\rd\medic_taru_1.paa",
+                    "texture\rd\medic_taru_2.paa",
+                    "texture\rd\medic_taru_3.paa",
+                    "texture\rd\medic_taru_4.paa"
+                }
+            }
+        };
+		
+	class O_Heli_Transport_04_medevac_F {
         vItemSpace = 300;
         conditions = "";
         price_civ = 4500000;
