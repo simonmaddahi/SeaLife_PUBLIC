@@ -13,5 +13,6 @@ if (hasInterface) then {
 */
 [] execVM "KRON_Strings.sqf";
 //[] execVM "Bonus.sqf";
+[] execVM "core\DynWeather.sqf";
 
 StartProgress = true;
