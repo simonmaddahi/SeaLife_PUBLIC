@@ -1,0 +1,9 @@
+- Fahrzeug Inventar wird gespeichert
+- Cops kriegen eine information wenn sie ein Fahrzeug mit Illegalen Gegenstand beschlagnahmen
+- Premium accounts wurden ingame eingefügt lvl 1 - 5
+
+
+wird heute noch gefixed:
+- jailsystem
+
+MfG Natic
