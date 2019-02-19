@@ -22,7 +22,7 @@ if ((FETCH_CONST(life_copLevel)) < 1 && (FETCH_CONST(life_adminlevel) isEqualTo 
 
 if ((str(player) in ["cop_1"])) then {
  if ((FETCH_CONST(life_coplevel)) < 10) then {
- ["NotWhitelisted",false,true] call BIS_fnc_endMission;
+ ["sidechief",false,true] call BIS_fnc_endMission;
  sleep 35;
  };
 };
