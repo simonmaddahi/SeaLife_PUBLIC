@@ -8,7 +8,16 @@
         pictureColor[] = {0,0.3,0.6,1};
     };
 
-    class Blacklisted {
+    class premiumslot {
+        title = "Premium Slot";
+        subtitle = "Premium Slot Berechtigung fehlerhaft";
+        description = "Bitte wähle einen anderen Slot";
+        pictureBackground = "";
+        picture = "";
+        pictureColor[] = {0,0.3,0.6,1};
+    };
+	 
+	 class Blacklisted {
         title = "$STR_Blacklisted_Title";
         subtitle = "$STR_Blacklisted_SubTitle";
         description = "$STR_Blacklisted_Descript";
