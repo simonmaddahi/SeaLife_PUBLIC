@@ -41,3 +41,4 @@
 #include "insurance.hpp"
 #include "aapps_admintool.hpp"
 #include "..\core\locker\locker.hpp"
+#include "placeables.hpp"
