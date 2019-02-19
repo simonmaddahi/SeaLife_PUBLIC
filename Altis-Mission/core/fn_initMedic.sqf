@@ -23,3 +23,5 @@ if ((str(player) in ["medic_1","medic_2"])) then {
 
 player setVariable ["rank",(FETCH_CONST(life_mediclevel)),true];
 0 spawn life_fnc_icons;
+
+[] spawn life_fnc_medicPlaceablesInit;
