@@ -1,9 +1,15 @@
 - Fahrzeug Inventar wird gespeichert
 - Cops kriegen eine information wenn sie ein Fahrzeug mit Illegalen Gegenstand beschlagnahmen
 - Premium accounts wurden ingame eingefügt lvl 1 - 5
+- Premium Slots eingefügt civ_1 bis civ_10
+- Slot Whitelist Texte wurde angepasst Beispiel: Dies ist ein Slot für die Fraktionsleitung, Bitte wähle einen anderen Slot!
 
 
 wird heute noch gefixed:
 - jailsystem
+
+wird von der Projektleitung benötigt:
+Premium level 1-5 in die player table erstellen
+Anleitung steht in der Config_Master >> enable_Donorlevel
 
 MfG Natic
