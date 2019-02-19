@@ -355,7 +355,7 @@ class CarShops {
 			{
                 "Land_Pod_Heli_Transport_04_medevac_F",  //Bank
                 "call life_mediclevel >= 7"
-			}
+			},
 			{
                 "Land_Pod_Heli_Transport_04_bench_F",  //Bank
                 "call life_mediclevel >= 7"
