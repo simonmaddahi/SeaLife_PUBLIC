@@ -1,7 +1,7 @@
 /*
     Author: Natic
 */
-class Archives
+class cfgarchives
   {
     class jail {
           variable = "archiv_jail";
