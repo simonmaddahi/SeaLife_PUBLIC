@@ -460,7 +460,23 @@ class playerSettings {
 			  align = "center";
 			};
         };
-        class btn_admintool: Life_RscButtonMenu
+        
+	            class archives_btn: Life_RscButton
+        {
+            idc = 789668;
+            text = "Archivements";
+            x = 0.699340 * safezoneW + safezoneX;
+            y = 0.736049 * safezoneH + safezoneY;
+            w = 0.125 * safezoneW;
+            h = 0.037037 * safezoneH;
+            ColorBackground[] = {0,0,0,0.627450};
+            ColorText[] = {1,1,1,1};
+            font = TahomaB;
+            colorFocused[] = {0,0,0,1};
+            colorDisabled[] = {0,0,0,1};
+        };
+	    
+	    class btn_admintool: Life_RscButtonMenu
         {
         	idc = 2021;
           onButtonClick = "abcdefghijklmnopqrstuvwxy = true";
