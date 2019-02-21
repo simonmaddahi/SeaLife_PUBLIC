@@ -38,31 +38,26 @@ closeDialog 0;
 	
 	if (_ticketcount == 100) then {
 	if (getNumber(missionConfigFile >>"cfgArchives" >> "tickets" >> "level_1","needed")) then {
-		ctrlSetText [100100, Format ["%1", _lvl_1]];
 				lbAdd [100100, "%1",_lvl_1];
 	};
 	};
 	if (_ticketcount == 300) then {
 	if (getNumber(missionConfigFile >>"cfgArchives" >> "tickets" >> "level_1","needed")) then {
-		ctrlSetText [100100, Format ["%1", _lvl_2]];
 		lbAdd [100100, "%1",_lvl_2];
 	};
 	};
 	if (_ticketcount == 800) then {
 	if (getNumber(missionConfigFile >>"cfgArchives" >> "tickets" >> "level_1","needed")) then {
-		ctrlSetText [100100, Format ["%1", _lvl_3]];
 		lbAdd [100100, "%1",_lvl_3];
 	};
 	};
 	if (_ticketcount == 2500) then {
 	if (getNumber(missionConfigFile >>"cfgArchives" >> "tickets" >> "level_1","needed")) then {
-		ctrlSetText [100100, Format ["%1", _lvl_4]];
 		lbAdd [100100, "%1",_lvl_4];
 	};
 	};
 	if (_ticketcount == 5000) then {
 	if (getNumber(missionConfigFile >>"cfgArchives" >> "tickets" >> "level_1","needed")) then {
-		ctrlSetText [100100, Format ["%1", _lvl_5]];
 		lbAdd [100100, "%1",_lvl_5];
 	};
 	};
