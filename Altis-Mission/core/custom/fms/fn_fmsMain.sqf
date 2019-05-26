@@ -1,5 +1,5 @@
 /*
-	Autor: Basti
+	Autor: Basti [& Natic]
 	File: fn_fmsMain.sqf
 	
 	This File was written for Eastside-Gaming.de you are not allowed to use this file!
