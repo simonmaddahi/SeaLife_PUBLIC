@@ -1,7 +1,7 @@
 ﻿#include "..\..\script_macros.hpp"
 /*
 	File: fn_bambyTake.sqf
-	Author: nflug
+	Author: Natic
 	
 	# Author bitte nicht entfernen!
 	# Veränderungen an dieser Datei sind erlaubt.
