@@ -1,6 +1,9 @@
 /*
-	Zeigt den Ausweis
+	Author: Natic
+	
+	Description: Check it for yourself :)
 */
+
 disableSerialization;
 "esg_ausweis" cutRsc ["esg_ausweis","PLAIN"];
 _ui = uiNamespace getVariable "esg_ausweis";
