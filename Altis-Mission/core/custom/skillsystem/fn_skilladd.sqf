@@ -1,4 +1,10 @@
-﻿_mode = [_this, 0] call BIS_fnc_param;
+/*
+	Author: Natic
+	
+	Description: Check it for yourself :)
+*/﻿
+ 
+ _mode = [_this, 0] call BIS_fnc_param;
 _skilladd = [_this, 1, 1] call BIS_fnc_param;
 switch(true)do {
 	case (_mode isEqualTo "repair"): {
