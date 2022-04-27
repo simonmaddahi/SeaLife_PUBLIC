@@ -1,3 +1,9 @@
+/*
+	Author: Natic
+	
+	Description: Check it for yourself :)
+*/
+
 if((findDisplay 39472) isEqualTo displayNull) then {
 	createDialog "esg_skillsystem_dialog";
 };
