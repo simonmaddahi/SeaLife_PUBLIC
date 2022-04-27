@@ -1,5 +1,5 @@
 /*
-	Author: Basti | John Collins
+	Author: Basti & Natic
 */
 
 
