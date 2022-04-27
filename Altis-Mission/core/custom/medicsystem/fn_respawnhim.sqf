@@ -1,3 +1,9 @@
+/*
+	Author: Natic
+	
+	Description: Response the Spawn Menu
+*/
+
 closeDialog 0; 
 life_respawned = true; 
 [] call life_fnc_spawnMenu;
