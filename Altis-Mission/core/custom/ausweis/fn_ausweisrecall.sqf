@@ -1,6 +1,9 @@
 /*
-    Ausweis Recall
+	Author: Natic
+	
+	Description: Check it for yourself :)
 */
+
 closedialog 0;
 ESG_ausweis = _this select 0;
 if(ESG_ausweis isEqualTo [])exitWith{endmission "";};
