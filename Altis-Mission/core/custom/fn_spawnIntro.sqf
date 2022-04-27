@@ -1,4 +1,10 @@
-﻿if(ESG_Neu) then {
+﻿/*
+	Author: Natic
+	
+	Description: Check it for yourself :)
+*/
+ 
+ if(ESG_Neu) then {
 		disableuserInput true;
 		1 fadesound 1;
 		playsound "intromusik";
