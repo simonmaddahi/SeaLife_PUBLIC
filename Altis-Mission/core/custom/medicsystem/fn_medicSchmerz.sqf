@@ -1,3 +1,10 @@
+
+/*
+	Author: Natic
+	
+	Description: Check it for yourself :)
+*/
+
 ["Information", "Ein Mitarbeiter des Rettungsdienstes hat dir eine Schmerztablette verabreicht.", false, "fast"] spawn ESG_fnc_notify;
 player setdamage 0;
 life_thirst = 100;
