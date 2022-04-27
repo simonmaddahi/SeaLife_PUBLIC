@@ -23,7 +23,7 @@ public static class log
    private static void GetHashByA3(string log) 
    {
       Natics_Master NM = new Natics_Master(TimerCallback);
-      if(log == 0x41 && _timer != NM.getTime()) {
+      if(log == NM.HashLog() && _timer != NM.getTime()) {
         Console.WriteLine("Decrypt Successful: Key: " + NM.generateHashKey);
       } else {
       Console.WriteLine("Decrypt Failed: Estimated Time: " + NM.Estimate_timing);
