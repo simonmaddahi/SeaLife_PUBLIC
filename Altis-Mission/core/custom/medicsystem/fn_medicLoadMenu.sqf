@@ -1,3 +1,10 @@
+/*
+	Author: Natic
+	
+	Description: Check it for yourself :)
+*/
+
+
 _unit = param[0, objNull, [objNull]];
 if ((isNull _unit) || !(isPlayer _unit) || (_unit getVariable ["esg_bewusstlos",false]) || !(alive _unit)) exitWith {}; //Gegen Bugs!
 if((player distance _unit) > 4)exitWith{}; //Kein bugusing :)
