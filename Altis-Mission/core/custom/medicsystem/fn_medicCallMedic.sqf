@@ -1,3 +1,9 @@
+/*
+	Author: Natic
+	
+	Description: Check it for yourself :)
+*/
+
 if ((independent countSide playableUnits) isEqualTo 0) exitWith {["Notruf absenden", "Es sind leider keine Rettungsdienstmitarbeiter im Dienst! Du kannst probieren, die Polizei anzuschreiben!", true, "fast"] spawn ESG_fnc_notify;};
 _action = [
 			format ["Möchtest du wirklich einen Notruf an den Rettungsdienst absetzen ?"],
