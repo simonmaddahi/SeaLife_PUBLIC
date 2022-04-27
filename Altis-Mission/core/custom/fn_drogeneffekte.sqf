@@ -1,3 +1,9 @@
+/*
+	Author: Natic
+	
+	Description: Check it for yourself :)
+*/
+
 _mode = _this select 0;
 switch(_mode) do {
 	case "heroin": {
