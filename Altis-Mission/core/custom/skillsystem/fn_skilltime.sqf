@@ -1,3 +1,9 @@
+/*
+	Author: Natic
+	
+	Description: Check it for yourself :)
+*/
+
 _mode = [_this, 0] call BIS_fnc_param;
 _return = 0.1;
 switch(true) do {
