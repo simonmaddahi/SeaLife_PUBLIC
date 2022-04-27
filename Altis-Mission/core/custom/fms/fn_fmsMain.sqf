@@ -1,9 +1,9 @@
 /*
-	Autor: Basti [& Natic]
-	File: fn_fmsMain.sqf
+	Author: Natic
 	
-	This File was written for Eastside-Gaming.de you are not allowed to use this file!
+	Description: Check it for yourself :)
 */
+
 createDialog "fms_system";
 disableSerialization;
 _display = findDisplay 39400;
