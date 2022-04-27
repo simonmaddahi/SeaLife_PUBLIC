@@ -1,6 +1,9 @@
 /*
-    Speichert Ausweis Informationen.
+	Author: Natic
+	
+	Description: Check it for yourself :)
 */
+
 disableSerialization;
 _dialog = findDisplay 2777;
 _name = _dialog displayCtrl 1003;
