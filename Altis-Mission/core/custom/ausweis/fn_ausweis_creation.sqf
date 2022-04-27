@@ -1,6 +1,9 @@
 /*
-    Lädt generelle Ausweis sachen.
+	Author: Natic
+	
+	Description: Check it for yourself :)
 */
+
 createDialog "esg_ausweis_create";
 disableSerialization;
 (findDisplay 2777) displaySetEventHandler ["keyDown","_this call life_fnc_displayHandler"];
