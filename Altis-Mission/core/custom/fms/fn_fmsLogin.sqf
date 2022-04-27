@@ -1,9 +1,9 @@
 /*
-	Autor: Basti
-	File: fn_fmsLogin.sqf
+	Author: Natic
 	
-	This File was written for Eastside-Gaming.de you are not allowed to use this file!
+	Description: Check it for yourself :)
 */
+
 disableSerialization;
 _display = findDisplay 39400;
 _tree = _display displayCtrl 1500;
