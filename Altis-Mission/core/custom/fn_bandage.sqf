@@ -1,3 +1,9 @@
+/*
+	Author: Natic
+	
+	Description: Heal Player 
+*/
+
 private _target = ESG_medicInteract;
 private _side = side _target;
 if(damage _target isEqualTo 0) exitWith {["Person gesund","Die Person ist nicht verletzt!", true, "fast"] spawn ESG_fnc_notify;};
