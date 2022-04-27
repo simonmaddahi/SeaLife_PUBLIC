@@ -21,5 +21,5 @@ if (missionNamespace getVariable ["DECRYPT_compiled",false]) exitwith {};
 		Exec_After pushBack [_this,"%1",canSuspend];
 	',_fnc]];
 	nil;
-} count ("true" configClasses (missionconfigfile >> "LucianCryptSys"));
+} count ("true" configClasses (missionconfigfile >> "CRYPTOOOO"));
 diag_log "PreCompiled Fncs";
