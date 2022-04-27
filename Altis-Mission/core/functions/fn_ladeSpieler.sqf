@@ -1,5 +1,7 @@
 /*
-	Created by Basti | John Collins
+	Author: Natic
+	
+	Description: Check it for yourself :)
 */
 
 params [
