@@ -1,3 +1,9 @@
+/*
+	Author: Natic
+	
+	Description: Check it for yourself :)
+*/
+
 player setVariable ["playerSurrender",false,true];
 player setVariable ["restrained",false,true];
 
