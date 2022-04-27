@@ -1,3 +1,10 @@
+/*
+	Author: Natic
+	
+	Description: Check it for yourself :)
+*/
+
+
 //call compile (data von der lb)
 disableSerialization;
 private _display = findDisplay 39472;
