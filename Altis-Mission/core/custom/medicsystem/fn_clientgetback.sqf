@@ -1,4 +1,10 @@
-﻿#include "..\..\..\script_macros.hpp"
+﻿/*
+	Author: Natic
+	
+	Description: Check it for yourself :)
+*/
+ 
+ #include "..\..\..\script_macros.hpp"
 private ["_curTarget","_distance","_isVehicle","_title","_progressBar","_cP","_titleText","_dice","_badDistance"];
 _opfer = param [0,objNull,[objNull]];
 ["Wiederbelebung", format ["%1 hat dich wiederbelebt!", _opfer getVariable ["realname",name _opfer]], false, "fast"] spawn ESG_fnc_notify;
